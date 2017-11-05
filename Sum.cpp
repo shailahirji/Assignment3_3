@@ -81,7 +81,7 @@ int main() {
         result += total.pop() + '0'; //add them to the result
     }
 
-    cout << "This is your sum: " << result << endl;
+    cout << "Sum= " << result << endl;
 
     return 0;
 
