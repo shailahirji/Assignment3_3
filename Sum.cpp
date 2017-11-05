@@ -1,5 +1,5 @@
 //============================================================================
-// Name        :Addition.cpp
+// Name        :Sum.cpp
 // Author      :Shaila Hirji
 // Version     :
 // Copyright   : Your copyright notice
@@ -62,7 +62,7 @@ int main() {
 
             carry = sum / 10; //store the left over value into carry, to be carried forward to the next sum
 
-        } else { //sum <9
+        } else { //sum < 9, nothing to carry forward 
             carry = 0;
             total.push(sum); //add value into total Stack
 
